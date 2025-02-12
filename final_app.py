@@ -1048,6 +1048,7 @@ def page_end():
             st.write("L'application des réseaux de neurones pour une tâche de régression est peu courante en raison des performances des modèles de régression classiques. Cependant, cette approche permet de mieux comprendre leur fonctionnement. La majorité des utilisations du deep learning concernent l'analyse de texte ou d'images, avec des modèles comme les transformers ou les CNN, qui permettent de traiter une ou plusieurs matrices en entrée pour l'analyse d'images.")  
             st.write("L'image ci-dessous illustre l'utilisation d'un CNN pour détecter des zones d'eau, de corail et de sable sur une image satellite.")  
             st.image("https://www.cell.com/cms/10.1016/j.tree.2019.03.006/asset/b0d6cd3f-7902-4162-8998-513fd646463d/main.assets/gr3_lrg.jpg", caption= "Brodrick et al., 2019")
+            
 
 
 
@@ -1084,7 +1085,10 @@ def page_remerciement():
         st.write("https://www.youtube.com/watch?v=CqOfi41LfDw")
         st.subheader("Journal de bord")
         st.write("Les améliorations à apporter à l'application seraient, tout d'abord, l'optimisation de la structure de conditions (`if`) utilisées pour la page 2, qui n'est pas optimale et peut entraîner de légers bugs. J'aurais également aimé inclure plus d'informations et d'animations pour expliquer la backpropagation ainsi que le fonctionnement des CNN et/ou des transformers. Je n'ai pas compté le nombre d'heures passées sur ce projet, mais l'activité la plus chronophage a été la mise en place du réseau de neurones dynamique sur la page 3.")  
-
+        st.write("")
+        st.write("")
+        st.write("")
+        st.write("Marion Sésia, février 2025")
 
 
 
