@@ -186,7 +186,7 @@ def page_intro():
         st.write("")
         st.write("")
         st.subheader("Différentes fonctions d'activation")
-        st.markdown("Il existe de nombreuses fonctions d'activation, chacune ayant ses propres utilisations. Les plus connues et les plus généralisables sont les fonctions ReLU (Rectified Linear Unit), sigmoïde et softmax.", unsafe_allow_html=True)
+        st.markdown("Il existe de nombreuses fonctions d'activation, chacune ayant ses propres utilisations. Les plus connues et les plus généralisables sont les fonctions ReLU (Rectified Linear Unit), sigmoïde et softplus.", unsafe_allow_html=True)
 
 
     # Taille du vecteur
