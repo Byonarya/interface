@@ -1047,7 +1047,7 @@ def page_end():
             st.write("Cette application a pour but de vous montrer comment fonctionne un réseau de neurones, à la fois visuellement et mathématiquement.")  
             st.write("L'application des réseaux de neurones pour une tâche de régression est peu courante en raison des performances des modèles de régression classiques. Cependant, cette approche permet de mieux comprendre leur fonctionnement. La majorité des utilisations du deep learning concernent l'analyse de texte ou d'images, avec des modèles comme les transformers ou les CNN, qui permettent de traiter une ou plusieurs matrices en entrée pour l'analyse d'images.")  
             st.write("L'image ci-dessous illustre l'utilisation d'un CNN pour détecter des zones d'eau, de corail et de sable sur une image satellite.")  
-            st.image("https://www.cell.com/cms/10.1016/j.tree.2019.03.006/asset/b0d6cd3f-7902-4162-8998-513fd646463d/main.assets/gr3_lrg.jpg", caption= "Brodrick et al., 2019")
+            st.image("https://github.com/Byonarya/interface/edit/main/gr3_lrg.jpg", caption= "Brodrick et al., 2019")
             
 
 
