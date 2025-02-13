@@ -71,7 +71,7 @@ def page_intro():
 
     with col2:
         st.title("1. Introduction aux Réseaux de Neurones (Deep Learning)")
-        st.write("Un réseau de neuronnes est un modèle mathématique et informatique créer en 1943 par Warren McCulloch et Walter Pitts. Il est inspiré du fonctionnement du cerveau, composé de plusieurs couches de neurones interconnectés, chacun de ces neurones est une unité de calcul qui prend en entrée un vecteur de données et renvoie une sortie.")
+        st.write("Un réseau de neurones est un modèle mathématique et informatique créer en 1943 par Warren McCulloch et Walter Pitts. Il est inspiré du fonctionnement du cerveau, composé de plusieurs couches de neurones interconnectés, chacun de ces neurones est une unité de calcul qui prend en entrée un vecteur de données et renvoie une sortie.")
         st.subheader("Représentation d'un réseau de neuronne")
 
     col1, col2, col3 = st.columns([1, 2, 1])
