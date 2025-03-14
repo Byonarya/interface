@@ -101,8 +101,8 @@ def page_intro():
 
         # Nom des noeuds
         node_labels_intro = {1: "Input",
-                            2: "ReLU",
-                            3: "ReLU",
+                            2: "F Activ",
+                            3: "F Activ",
                             4: "Sum",
                             5: "Output",
                             6: "Couche cachée"}
@@ -175,9 +175,9 @@ def page_intro():
     st.latex(r'''
             \text{y =}
             \begin{pmatrix}
-            max(0, x \cdot w1 + b1)  \cdot w3 \\
+            f(x \cdot w1 + b1)  \cdot w3 \\
             + \\
-            max(0, x \cdot w2 + b2)  \cdot w4 \\
+            f(x \cdot w2 + b2)  \cdot w4 \\
             \end{pmatrix} \text{+ b3}''')
     
     col1, col2, col3 = st.columns([0.5, 3, 0.5])
